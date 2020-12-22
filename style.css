@@ -64,7 +64,7 @@ a:hover {
   padding: 50px;
 }
 .right {
-  background-color: aquamarine;
+  background-color: rgb(153, 218, 196);
   flex: 1;
 
   text-align: center;
