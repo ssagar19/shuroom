@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Pacifico", cursive;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: dashed;
+  font-size: 60px;
+  padding: 40vh;
+  color: white;
+  font-weight: 100;
+  text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+  background: #5f2c82; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #49a09d,
+    #5f2c82
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #49a09d,
+    #5f2c82
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+nav {
+  background-image: url(./img/j-lee-BkCZz1DmrYY-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+li {
+  margin: 15px 13px;
+}
+ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+a {
+  padding: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff5c0;
+  transition: all 0.3s;
+}
+a:hover {
+  color: blue;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.left {
+  background-color: brown;
+  flex: 1;
+  text-align: center;
+
+  padding: 50px;
+}
+.right {
+  background-color: aquamarine;
+  flex: 1;
+
+  text-align: center;
+  padding: 50px;
+}
+img {
+  padding: 0px;
+  width: 390px;
+  height: 310px;
+}
